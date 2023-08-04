@@ -19,6 +19,6 @@ public class min_max_nearly {
 
         }
         System.out.println("\n\nDizideki en küçük sayı "+ list[0]+"\nDizide en küçük sayıya en yakın sayı "+list[1]);
-        System.out.println("Dizideki en büyük sayı "+ list[7]+"\nDizide en büyük sayıya en yakın sayı "+list[6]);
+        System.out.println("Dizideki en büyük sayı "+ list[list.length-1]+"\nDizide en büyük sayıya en yakın sayı "+list[list.length-2]);
     }
 }
